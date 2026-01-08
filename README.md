@@ -10,8 +10,9 @@ Idea for BIS:
 
 #### Rogue Gameplay
 1. create empty room inside map
-2. add player and control via keyboard
-3. add food and collect with player
+2. add player and control via keyboard (attach PlayerController.cs to Player)
+3. add collison handling for player and map (remove PlayerController.cs; attach PlayerControllerCollision.cs to Player)
+3. add food and collect with player 
 4. add enemy prefab and script -> place in room
 5. add enemy movement -> follow the player
 6. add random map 

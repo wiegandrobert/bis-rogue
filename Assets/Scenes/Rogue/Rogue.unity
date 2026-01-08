@@ -414,7 +414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 826605487606422813, guid: f08d327e9fb42f94d97ba9d1d226d418, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 7.16
       objectReference: {fileID: 0}
     - target: {fileID: 826605487606422813, guid: f08d327e9fb42f94d97ba9d1d226d418, type: 3}
       propertyPath: m_LocalRotation.w
@@ -558,6 +558,7 @@ GameObject:
   - component: {fileID: 959453739}
   - component: {fileID: 959453741}
   - component: {fileID: 959453743}
+  - component: {fileID: 959453744}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -618,6 +619,20 @@ MonoBehaviour:
   properbiltyOfRoomInCell: 70
   corridorPrefab: {fileID: 7081821655740613415, guid: 346a6666464974a41b501704fd1073ec, type: 3}
   corridorWidth: 0.05
+--- !u!64 &959453744
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959453738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1582416179
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +748,7 @@ GameObject:
   - component: {fileID: 1627970833}
   - component: {fileID: 1627970834}
   - component: {fileID: 1627970835}
+  - component: {fileID: 1627970836}
   m_Layer: 0
   m_Name: PlayerUpper
   m_TagString: Player
@@ -842,7 +858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c656668609e6d4423a47c228cf099f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlViaKeyboard: 1
 --- !u!54 &1627970833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -891,6 +906,21 @@ MonoBehaviour:
   volume: 1
   pitch: 20
   movementDetection: 0.073
+--- !u!114 &1627970836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627970826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b8859269b8a4d5194fc44578765e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveStep: 0.2
+  map: {fileID: 959453738}
+  stepCooldown: 0.15
 --- !u!1 &1975699869
 GameObject:
   m_ObjectHideFlags: 0
