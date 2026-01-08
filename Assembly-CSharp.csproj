@@ -114,7 +114,7 @@
      <Compile Include="Assets/Scenes/Rogue/Scripts/GridRoomSpawner.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/oldScripts/GridManager.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/RogueAudioManager.cs" />
-     <Compile Include="Assets/Scenes/Rogue/Scripts/RoomEchoManager.cs" />
+     <Compile Include="Assets/Scenes/Rogue/Scripts/oldScripts/RoomEchoManager.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/RoomManager.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/RogueManager.cs" />
@@ -127,6 +127,7 @@
      <Compile Include="Assets/Scenes/Rogue/Scripts/PlayerRecoil.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/oldScripts/GridSystem.cs" />
      <Compile Include="Assets/Scenes/Rogue/Scripts/Enemy.cs" />
+     <Compile Include="Assets/Scenes/Rogue/Scripts/PlayerWalkingSound.cs" />
      <None Include="Assets/unity-dualpanto-toolkit/Assets/Resources/Visualization/Path.compute" />
      <None Include="Assets/unity-dualpanto-toolkit/Assets/SpeechIOForUnity/ProjectSettings/ProjectVersion.txt" />
      <None Include="Assets/unity-dualpanto-toolkit/Assets/Resources/Visualization/PathShader.compute" />

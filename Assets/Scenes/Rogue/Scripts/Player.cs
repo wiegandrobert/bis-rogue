@@ -25,6 +25,11 @@ public class Player : MonoBehaviour
         {
             rogueManager.LevelFinished();
         }
+        
+    }
+    void OnCollisionStay(Collision collision)
+    {
+        Debug.Log("Player collided with: " + collision.gameObject.name);
         // Attack enemy if cooldown has elapsed
         if (collision.gameObject.CompareTag("Enemy") && Time.time - lastAttackTime > attackCooldown)
         {
